@@ -14,8 +14,9 @@
 
 # software entwicklung
 
-    sudo lxc-start -n gotta         //Startet Entwicklungsumgebung
-    sudo bash ./env.sh gotta        //Aktuallisiere Entwicklungsumgebung
+    sudo lxc-start -n gotta                         //Startet Entwicklungsumgebung
+    sudo bash ./env.sh gotta                        //Aktuallisiere Entwicklungsumgebung
+    sudo lxc-attach -n gotta -- /bin/su -l user     //Login als User in Entwicklungsumgebung
     
     git clone <url>                 // herunterladen des software repos
     git pull                        // aktualliesieren des lokalen software repos
