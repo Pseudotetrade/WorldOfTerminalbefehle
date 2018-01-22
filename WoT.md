@@ -10,12 +10,12 @@
 
     systemctl status ark.service    //Status des Servers
     systemctl start ark.service     //Starte Server
-    systemctl stop ark.service	    //Stoppe Server
+    systemctl stop ark.service      //Stoppe Server
 
 # software entwicklung
 
     sudo lxc-start -n gotta         //Startet Entwicklungsumgebung
-    sudo bash ./env.sh gotta	    //Aktuallisiere Entwicklungsumgebung
+    sudo bash ./env.sh gotta        //Aktuallisiere Entwicklungsumgebung
     
     git clone <url>                 // herunterladen des software repos
     git pull                        // aktualliesieren des lokalen software repos
