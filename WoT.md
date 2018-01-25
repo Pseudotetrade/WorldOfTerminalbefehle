@@ -25,3 +25,11 @@
     git add <datei>                 // füge datei einem commit hinzu
     git commit                      // erstelle neuen commit
     git push origin [<branch>]      // lade neuen softwarestand auf externes repo
+
+    1.) git pull
+    2.) Programm bearbeiten
+    3.) git status
+    4.1)git add -A                  // merkt alles vor  
+    4.2)git add <Dateipfad>         // merkt nur den Pfad vor  
+    5.) git commit                  // schließt commit mit anschließender Bemerkung ab  
+    6.) git push                    // hochladen zum Server  
